@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{999B2C0B-F915-5D7E-6E20-DB2A145A2EF0}</ProjectGuid>
+    <ProjectGuid>{9F965F5B-494C-E88F-4C39-BBF402475EA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,78 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\AlphaBlendingExample\AlphaBlendingExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\ComicFilterExample\ComicFilter.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\ComicFilterExample\ComicFilterExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\DocumentScannerExample\DocumentScannerExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\GreenScreenExample\GreenScreenExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\HandPoseEstimationExample\ColorBlobDetector.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\HandPoseEstimationExample\HandPoseEstimationExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\MatToTextureInRenderThreadExample\MatToTextureInRenderThreadExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\MultiObjectTrackingBasedOnColorExample\ColorObject.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\MultiObjectTrackingBasedOnColorExample\MultiObjectTrackingBasedOnColorExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Advanced\PolygonFilterExample\PolygonFilterExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Basic\MatBasicProcessingExample\MatBasicProcessingExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Basic\Texture2DToMatExample\Texture2DToMatExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Basic\Utils_GetFilePathExample\Utils_GetFilePathExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Basic\WebCamTextureToMatExample\WebCamTextureToMatExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\Basic\WebCamTextureToMatHelperExample\WebCamTextureToMatHelperExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\aruco\ArUcoExample\ArUcoCameraCalibrationExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\aruco\ArUcoExample\ArUcoCreateMarkerExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\aruco\ArUcoExample\ArUcoExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\aruco\ArUcoExample\ArUcoWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\aruco\ArUcoExample\CameraParameters.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\face\FaceMarkExample\FaceMarkExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\face\FaceRecognizerExample\FaceRecognizerExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\plot\PlotExample\PlotExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\text\TextExample\TextDetectionExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\text\TextExample\TextRecognitionExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ContribModules\tracking\TrackingExample\TrackingExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\FpsMonitor.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\calib3d\StereoBMExample\StereoBMExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\core\PCAExample\PCAExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\ColorizationExample\ColorizationExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\DnnObjectDetectionExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\DnnObjectDetectionWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\FastNeuralStyleTransferExample\FastNeuralStyleTransferExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\LibFaceDetectionV3Example\LibFaceDetectionV3WebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\MaskRCNNExample\MaskRCNNExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\OpenPoseExample\OpenPoseExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\TensorflowInceptionExample\TensorflowInceptionWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\TextOCRExample\TextOCRExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\features2d\Feature2DExample\Feature2DExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\features2d\MSERExample\MSERExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\features2d\SimpleBlobExample\SimpleBlobExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgcodecs\ImwriteScreenCaptureExample\ImwriteScreenCaptureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\CircleDetectionExample\CircleDetectionExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\ConnectedComponentsExample\ConnectedComponentsExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\ConvexHullExample\ConvexHullExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\DrawingExample\DrawingExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\GrabCutExample\GrabCutExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\HoughLinesPExample\HoughLinesPExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\MatchShapesExample\MatchShapesExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\MatchTemplateExample\MatchTemplateExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\ThresholdExample\ThresholdExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\imgproc\WrapPerspectiveExample\WrapPerspectiveExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\ml\SVMExample\SVMExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\FaceDetectionExample\AsynchronousFaceDetectionWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\FaceDetectionExample\FaceDetectionExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\FaceDetectionExample\FaceDetectionWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\HOGDescriptorExample\HOGDescriptorExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\QRCodeDetectorExample\QRCodeDetectorExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\objdetect\QRCodeDetectorExample\QRCodeDetectorWebCamTextureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\photo\InpaintExample\InpaintExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\photo\SeamlessCloneExample\SeamlessCloneExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\video\BackgroundSubtractorMOG2Example\BackgroundSubtractorMOG2Example.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\video\CamShiftExample\CamShiftExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\video\KalmanFilterExample\KalmanFilterExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\video\OpticalFlowExample\OpticalFlowExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\videoio\VideoCaptureExample\VideoCaptureExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\MainModules\videoio\VideoWriterExample\VideoWriterExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\OpenCVForUnityExample.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ShowLicense.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\ShowSystemInfo.cs" />
-    <Compile Include="Assets\OpenCVForUnity\Examples\TouchController.cs" />
     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\Calib3d.cs" />
     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\StereoBM.cs" />
     <Compile Include="Assets\OpenCVForUnity\org\opencv\calib3d\StereoMatcher.cs" />
@@ -386,38 +314,26 @@
     <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\TonemapDurand.cs" />
     <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\WhiteBalancer.cs" />
     <Compile Include="Assets\OpenCVForUnity\org\opencv_contrib\xphoto\Xphoto.cs" />
-    <Compile Include="Assets\Scripts\Keyboard.cs" />
-    <Compile Include="Assets\Scripts\test.cs" />
-    <Compile Include="Assets\Scripts\Webcam2cube.cs" />
-    <None Include="Assets\StreamingAssets\haarcascade_frontalface_alt.xml" />
-    <None Include="Assets\StreamingAssets\lbpcascade_frontalface.xml" />
-    <None Include="Assets\OpenCVForUnity\Plugins\macOS\opencvforunity.bundle\Contents\Resources\gl3w\readme.txt" />
-    <None Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\LibFaceDetectionV3Example\Readme_how_to_export_onnx_model.txt" />
-    <None Include="Assets\StreamingAssets\text\trained_classifier_erGrouping.xml" />
-    <None Include="Assets\OpenCVForUnity\Examples\MainModules\dnn\TextOCRExample\Readme_how_to_export_onnx_model.txt" />
-    <None Include="Assets\StreamingAssets\text\OCRHMM_transitions_table.xml" />
-    <None Include="Assets\OpenCVForUnity\Examples\link.xml" />
-    <None Include="Assets\StreamingAssets\text\trained_classifierNM1.xml" />
+    <Compile Include="Assets\Scripts\GetWebcam2Cube.cs" />
     <None Include="Assets\OpenCVForUnity\OpenCVLicense.txt" />
-    <None Include="Assets\StreamingAssets\text\trained_classifierNM2.xml" />
     <None Include="Assets\OpenCVForUnity\Notices.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -603,13 +519,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.9f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/intern_erez/KeyboardInVR_Unity/Keyboards/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/intern_erez/KeyboardInVR_Unity/OpenCVTests/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.9f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
